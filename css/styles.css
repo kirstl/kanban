@@ -1,0 +1,20 @@
+.kanban {
+    display: flex;
+    padding: 30px;
+    width: 750px;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.kanban * {
+    font-family: sans-serif;
+}
+
+.kanban_column {
+    flex: 1; /*equal width for each column*/
+}
+
+.kanban_column:not(:last-child) {
+    margin-right: 30px;
+}
+

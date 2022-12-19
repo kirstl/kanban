@@ -18,3 +18,39 @@
     margin-right: 30px;
 }
 
+.kanban_column-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    user-select: none; /*prevents user from moving the column titles*/
+}
+
+.kanban_item-input {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kanban_dropzone {
+    height: 20px;
+    transition: background 0.15s, height 0.15s;
+    height: 0.15s;
+}
+
+.kanban_dropzone-active {
+    height: 40px;
+    background: rgba(0,0,0,0.25);
+}
+
+.kanban_add-item {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    background: rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
